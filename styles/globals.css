@@ -4,6 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+.btn{
+  @apply w-[321.42px] h-[51.18px] my-[5px] rounded-[10px] border-blue-300 border-2
+}
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
