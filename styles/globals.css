@@ -7,6 +7,9 @@
 .btn{
   @apply w-[321.42px] h-[51.18px] my-[5px] rounded-[10px] border-blue-300 border-2
 }
+.btn2{
+  @apply w-[360px] h-[50px] my-[5px] rounded-[10px] border-blue-300 border-2
+}
 .li-programme{
   @apply text-[18px] font-light mr-10 mb-1
 }
