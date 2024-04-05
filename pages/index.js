@@ -10,6 +10,7 @@ import Programme2 from "./Programme2";
 import Login1 from "./Login1";
 import Choisir from "./Choisir";
 import Questions from "./Questions";
+import Inscriver from "./inscrivez";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -30,7 +31,7 @@ export default function Home() {
       <Login2/>
       <Choisir/>
       <Questions/>
-    
+      <Inscriver/>
     
     
     </>
