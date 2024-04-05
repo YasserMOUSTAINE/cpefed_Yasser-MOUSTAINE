@@ -1,7 +1,8 @@
 const Formation = () => {
-    return ( <div>
-        <hr className=" border-[1px] border-[#D0CFCE]"/>
-        
+    return (
+      <div>
+        <hr className=" border-[1px] border-[#D0CFCE] mx-[80px]"/>
+      <div className=" flex justify-center">
         <div className="grid grid-cols-2 grid-rows-3 gap-4">
             <div className="col-start-2 row-start-1 mt-10 flex justify-end  ">
             <div>
@@ -62,6 +63,7 @@ const Formation = () => {
             </div>
             </div>
         </div>
+      </div>
     </div> );
 }
  

@@ -1,12 +1,14 @@
 const Choisir = () => {
-    return ( <div>
-        <hr className=" border-[1px] border-[#D0CFCE]"/>
-        <div className=" flex justify-center mt-14">
+    return ( <div className="mb-14 ">
+        <hr className=" border-[1px] border-[#D0CFCE] mx-[80px]"/>
+        <div className=" flex justify-center mt-14 ">
             <h3 className=" font-extrabold text-[40px]">Pourquoi choisir Cpefed ?</h3>
         </div>
+        <div className="flex justify-center">
+        <div>
         <div className="grid grid-cols-2 grid-rows-3 mt-14">
-            <div className="row-span-2  ">
-                <div className=" rounded-[20px] pt-10 p-8 border-[1px] border-[#74b5ff] bg-white w-[490px] h-[334px] hover:drop-shadow-2xl ">
+            <div className="row-span-2 pr-4 ">
+                <div className=" rounded-[20px] pt-10 p-8 border-[1px] border-[#74b5ff ] bg-white w-[490px] h-[334px] hover:drop-shadow-2xl ">
                 <h3 className=" text-[25px] font-extrabold">Des formations conçues par des<br/>
                      experts de la pédagogie</h3>
                 <div>
@@ -30,8 +32,8 @@ const Choisir = () => {
                 </div>
                 
             </div>
-            <div >
-                <div className=" rounded-[20px] pt-8 p-8 border-[1px] border-[#74b5ff] bg-white w-[490px] h-[190px] hover:drop-shadow-2xl ">
+            <div className="pl-6">
+                <div className=" rounded-[20px] pt-8 p-8  border-[1px] border-[#74b5ff] bg-white w-[490px] h-[190px] hover:drop-shadow-2xl ">
                 <div>
                 <h3 className="text-[25px] font-extrabold">Une formation qui s'adapte à vos <br/>
                 besoins... c'est vous qui décidez !</h3>
@@ -46,7 +48,7 @@ const Choisir = () => {
                 </div>
                 </div>
             </div>
-            <div className="row-span-2 col-start-2">
+            <div className="row-span-2 col-start-2 pl-6">
                 <div className="rounded-[20px] pt-8 p-8 border-[1px] border-[#74b5ff] bg-white w-[490px] mt-[46px] h-[334px] hover:drop-shadow-2xl ">
                 <div>
                     <h3 className="text-[25px] font-extrabold">Un apprentissage avec <br/>
@@ -87,7 +89,8 @@ const Choisir = () => {
                 </div>
             </div>
         </div>
-            
+        </div>
+        </div>
     </div> );
 }
  
