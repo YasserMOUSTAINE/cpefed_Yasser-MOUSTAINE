@@ -1,9 +1,4 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import Programme from "@/component/Programme";
-import Yasser from "../compos/Yasser";
+
 import Login2 from "./Login2";
 import Formation from "./Formation";
 import Programme2 from "./Programme2";
@@ -12,8 +7,6 @@ import Choisir from "./Choisir";
 import Questions from "./Questions";
 import Inscriver from "./inscrivez";
 
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
