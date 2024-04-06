@@ -1,9 +1,8 @@
 import AccordianList from "./AccordianList";
-import Data from "./Data";
+import Data from "../../component/Data";
 import { useState } from "react";
 
 const Accordian = () => {
-    
     
     const [touch,setTouch]=useState(null);
     let handleTouch=(id)=>{
@@ -13,7 +12,6 @@ const Accordian = () => {
         }
         setTouch(id)
     }
-
 
     return ( 
         <div className=" container mx-auto">
